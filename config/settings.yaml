@@ -1,0 +1,85 @@
+# LinkedIn Post Automation Configuration
+
+# Newsletter Sources
+newsletter_sources:
+  deeplearning_ai:
+    batch_newsletter:
+      url: "https://www.deeplearning.ai/the-batch/"
+      name: "The Batch"
+      type: "weekly"
+    data_points:
+      url: "https://www.deeplearning.ai/data-points/"
+      name: "Data Points"
+      type: "weekly"
+
+# Content Processing
+content_processing:
+  max_post_length: 1300
+  min_post_length: 100
+  include_hashtags: true
+  max_hashtags: 5
+  include_mentions: true
+  content_filter:
+    keywords:
+      - "AI"
+      - "machine learning"
+      - "deep learning"
+      - "artificial intelligence"
+      - "data science"
+    exclude_keywords:
+      - "spam"
+      - "clickbait"
+
+# Post Generation
+post_generation:
+  templates:
+    - "🎯 {title}\n\n{summary}\n\n💡 Key insights:\n{insights}\n\n🔗 Read more: {link}\n\n{hashtags}"
+    - "📊 {title}\n\n{summary}\n\n🚀 Why this matters:\n{insights}\n\n📖 Full article: {link}\n\n{hashtags}"
+    - "🤖 {title}\n\n{summary}\n\n⚡ Quick takeaways:\n{insights}\n\n🔍 Learn more: {link}\n\n{hashtags}"
+  
+  hashtags:
+    default:
+      - "#AI"
+      - "#MachineLearning"
+      - "#DeepLearning"
+      - "#DataScience"
+      - "#ArtificialIntelligence"
+    dynamic: true
+
+# Scheduling
+scheduling:
+  posting_times:
+    - "09:00"
+    - "12:00"
+    - "17:00"
+    - "20:00"
+  timezone: "UTC"
+  max_posts_per_day: 3
+  min_interval_hours: 4
+
+# LinkedIn API
+linkedin:
+  api_version: "v2"
+  rate_limit:
+    posts_per_day: 25
+    posts_per_hour: 2
+  post_settings:
+    visibility: "public"
+    language: "en"
+
+# Logging
+logging:
+  level: "INFO"
+  file: "logs/linkedin_automation.log"
+  max_size_mb: 10
+  backup_count: 5
+
+# Monitoring
+monitoring:
+  track_engagement: true
+  track_metrics:
+    - "likes"
+    - "comments"
+    - "shares"
+    - "views"
+  analytics_file: "data/analytics.csv"
