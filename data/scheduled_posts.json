@@ -231,5 +231,365 @@
     "status": "scheduled",
     "created_at": "2025-08-16T19:04:40.922726",
     "post_id": "post_20250816_190440_2"
+  },
+  {
+    "post": {
+      "content": "🤖 Revolutionary ai breakthrough in healthcare\n\nResearchers at stanford have developed a new ai system that can diagnose rare diseases with 95 accuracy, potentially saving thousands of lives annually. The system uses advanced machine learning algorithms to analyze medical imaging and patient data.\n\n⚡ Quick takeaways:\n• 95 accuracy in rare disease diagnosis\n• Uses advanced ml algorithms\n• Analyzes medical imaging and patient data\n\n🔍 Learn more: https://example.com/ai-healthcare-breakthrough\n\n#AI #MachineLearning #DeepLearning #DataScience #ArtificialIntelligence",
+      "article": {
+        "original_article": {
+          "title": "Revolutionary AI Breakthrough in Healthcare",
+          "summary": "Researchers at Stanford have developed a new AI system that can diagnose rare diseases with 95% accuracy, potentially saving thousands of lives annually. The system uses advanced machine learning algorithms to analyze medical imaging and patient data.",
+          "insights": [
+            "95% accuracy in rare disease diagnosis",
+            "Uses advanced ML algorithms",
+            "Analyzes medical imaging and patient data",
+            "Potential to save thousands of lives"
+          ],
+          "link": "https://example.com/ai-healthcare-breakthrough",
+          "source": "deeplearning_ai",
+          "date": "2024-01-15"
+        },
+        "title": "Revolutionary ai breakthrough in healthcare",
+        "summary": "Researchers at stanford have developed a new ai system that can diagnose rare diseases with 95 accuracy, potentially saving thousands of lives annually. The system uses advanced machine learning algorithms to analyze medical imaging and patient data.",
+        "key_insights": [
+          "95 accuracy in rare disease diagnosis",
+          "Uses advanced ml algorithms",
+          "Analyzes medical imaging and patient data"
+        ],
+        "hashtags": [
+          "#AI",
+          "#MachineLearning",
+          "#DeepLearning",
+          "#DataScience",
+          "#ArtificialIntelligence"
+        ],
+        "link": "https://example.com/ai-healthcare-breakthrough",
+        "source": "deeplearning_ai",
+        "processed_at": "2025-08-19T11:57:11.191815",
+        "content_score": 1.0
+      },
+      "template_used": "🤖 {title}\n\n{summary}\n\n⚡ Quick takeaways:\n{insights}\n\n🔍 Learn more: {link}\n\n{hashtags}",
+      "generated_at": "2025-08-19T11:57:11.204080",
+      "post_length": 566,
+      "hashtag_count": 5,
+      "engagement_score": 0.8
+    },
+    "scheduled_time": "2025-08-19T12:00:00",
+    "status": "scheduled",
+    "created_at": "2025-08-19T11:57:11.204373",
+    "post_id": "post_20250819_115711_0"
+  },
+  {
+    "post": {
+      "content": "📊 The future of machine learning: automl takes center stage\n\nAutomated machine learning (automl) is revolutionizing how businesses implement ai solutions. Companies are seeing 40 faster deployment times and 30 cost reductions when using automl platforms.\n\n🚀 Why this matters:\n• 40 faster ai deployment times\n• 30 cost reduction with automl\n• Revolutionizing business ai implementation\n\n📖 Full article: https://example.com/automl-future\n\n#AI #MachineLearning #DeepLearning #DataScience #ArtificialIntelligence",
+      "article": {
+        "original_article": {
+          "title": "The Future of Machine Learning: AutoML Takes Center Stage",
+          "summary": "Automated Machine Learning (AutoML) is revolutionizing how businesses implement AI solutions. Companies are seeing 40% faster deployment times and 30% cost reductions when using AutoML platforms.",
+          "insights": [
+            "40% faster AI deployment times",
+            "30% cost reduction with AutoML",
+            "Revolutionizing business AI implementation",
+            "AutoML platforms gaining popularity"
+          ],
+          "link": "https://example.com/automl-future",
+          "source": "deeplearning_ai",
+          "date": "2024-01-14"
+        },
+        "title": "The future of machine learning: automl takes center stage",
+        "summary": "Automated machine learning (automl) is revolutionizing how businesses implement ai solutions. Companies are seeing 40 faster deployment times and 30 cost reductions when using automl platforms.",
+        "key_insights": [
+          "40 faster ai deployment times",
+          "30 cost reduction with automl",
+          "Revolutionizing business ai implementation"
+        ],
+        "hashtags": [
+          "#AI",
+          "#MachineLearning",
+          "#DeepLearning",
+          "#DataScience",
+          "#ArtificialIntelligence"
+        ],
+        "link": "https://example.com/automl-future",
+        "source": "deeplearning_ai",
+        "processed_at": "2025-08-19T11:57:11.203644",
+        "content_score": 1.0
+      },
+      "template_used": "📊 {title}\n\n{summary}\n\n🚀 Why this matters:\n{insights}\n\n📖 Full article: {link}\n\n{hashtags}",
+      "generated_at": "2025-08-19T11:57:11.204154",
+      "post_length": 508,
+      "hashtag_count": 5,
+      "engagement_score": 0.8
+    },
+    "scheduled_time": "2025-08-19T12:00:00",
+    "status": "scheduled",
+    "created_at": "2025-08-19T11:57:11.204373",
+    "post_id": "post_20250819_115711_1"
+  },
+  {
+    "post": {
+      "content": "📊 Data science trends that will dominate 2024\n\nFrom edge computing to federated learning, 2024 is set to be a transformative year for data science. Organizations are increasingly adopting these technologies to improve efficiency and maintain data privacy.\n\n🚀 Why this matters:\n• Edge computing gaining traction\n• Federated learning for privacy\n• Transformative year for data science\n\n📖 Full article: https://example.com/data-science-trends-2024\n\n#AI #MachineLearning #DeepLearning #DataScience #ArtificialIntelligence",
+      "article": {
+        "original_article": {
+          "title": "Data Science Trends That Will Dominate 2024",
+          "summary": "From edge computing to federated learning, 2024 is set to be a transformative year for data science. Organizations are increasingly adopting these technologies to improve efficiency and maintain data privacy.",
+          "insights": [
+            "Edge computing gaining traction",
+            "Federated learning for privacy",
+            "Transformative year for data science",
+            "Focus on efficiency and privacy"
+          ],
+          "link": "https://example.com/data-science-trends-2024",
+          "source": "deeplearning_ai",
+          "date": "2024-01-13"
+        },
+        "title": "Data science trends that will dominate 2024",
+        "summary": "From edge computing to federated learning, 2024 is set to be a transformative year for data science. Organizations are increasingly adopting these technologies to improve efficiency and maintain data privacy.",
+        "key_insights": [
+          "Edge computing gaining traction",
+          "Federated learning for privacy",
+          "Transformative year for data science"
+        ],
+        "hashtags": [
+          "#AI",
+          "#MachineLearning",
+          "#DeepLearning",
+          "#DataScience",
+          "#ArtificialIntelligence"
+        ],
+        "link": "https://example.com/data-science-trends-2024",
+        "source": "deeplearning_ai",
+        "processed_at": "2025-08-19T11:57:11.203840",
+        "content_score": 1.0
+      },
+      "template_used": "📊 {title}\n\n{summary}\n\n🚀 Why this matters:\n{insights}\n\n📖 Full article: {link}\n\n{hashtags}",
+      "generated_at": "2025-08-19T11:57:11.204189",
+      "post_length": 517,
+      "hashtag_count": 5,
+      "engagement_score": 0.8
+    },
+    "scheduled_time": "2025-08-19T12:00:00",
+    "status": "scheduled",
+    "created_at": "2025-08-19T11:57:11.204373",
+    "post_id": "post_20250819_115711_2"
+  },
+  {
+    "post": {
+      "content": "📊 Revolutionary ai breakthrough in healthcare\n\nResearchers at stanford have developed a new ai system that can diagnose rare diseases with 95 accuracy, potentially saving thousands of lives annually. The system uses advanced machine learning algorithms to analyze medical imaging and patient data.\n\n🚀 Why this matters:\n• 95 accuracy in rare disease diagnosis\n• Uses advanced ml algorithms\n• Analyzes medical imaging and patient data\n\n📖 Full article: https://example.com/ai-healthcare-breakthrough\n\n#AI #MachineLearning #DeepLearning #DataScience #ArtificialIntelligence",
+      "article": {
+        "original_article": {
+          "title": "Revolutionary AI Breakthrough in Healthcare",
+          "summary": "Researchers at Stanford have developed a new AI system that can diagnose rare diseases with 95% accuracy, potentially saving thousands of lives annually. The system uses advanced machine learning algorithms to analyze medical imaging and patient data.",
+          "insights": [
+            "95% accuracy in rare disease diagnosis",
+            "Uses advanced ML algorithms",
+            "Analyzes medical imaging and patient data",
+            "Potential to save thousands of lives"
+          ],
+          "link": "https://example.com/ai-healthcare-breakthrough",
+          "source": "deeplearning_ai",
+          "date": "2024-01-15"
+        },
+        "title": "Revolutionary ai breakthrough in healthcare",
+        "summary": "Researchers at stanford have developed a new ai system that can diagnose rare diseases with 95 accuracy, potentially saving thousands of lives annually. The system uses advanced machine learning algorithms to analyze medical imaging and patient data.",
+        "key_insights": [
+          "95 accuracy in rare disease diagnosis",
+          "Uses advanced ml algorithms",
+          "Analyzes medical imaging and patient data"
+        ],
+        "hashtags": [
+          "#AI",
+          "#MachineLearning",
+          "#DeepLearning",
+          "#DataScience",
+          "#ArtificialIntelligence"
+        ],
+        "link": "https://example.com/ai-healthcare-breakthrough",
+        "source": "deeplearning_ai",
+        "processed_at": "2025-08-19T11:59:59.908398",
+        "content_score": 1.0
+      },
+      "template_used": "📊 {title}\n\n{summary}\n\n🚀 Why this matters:\n{insights}\n\n📖 Full article: {link}\n\n{hashtags}",
+      "generated_at": "2025-08-19T11:59:59.920022",
+      "post_length": 569,
+      "hashtag_count": 5,
+      "engagement_score": 0.8
+    },
+    "scheduled_time": "2025-08-19T12:00:00",
+    "status": "scheduled",
+    "created_at": "2025-08-19T11:59:59.920340",
+    "post_id": "post_20250819_115959_0"
+  },
+  {
+    "post": {
+      "content": "📊 The future of machine learning: automl takes center stage\n\nAutomated machine learning (automl) is revolutionizing how businesses implement ai solutions. Companies are seeing 40 faster deployment times and 30 cost reductions when using automl platforms.\n\n🚀 Why this matters:\n• 40 faster ai deployment times\n• 30 cost reduction with automl\n• Revolutionizing business ai implementation\n\n📖 Full article: https://example.com/automl-future\n\n#AI #MachineLearning #DeepLearning #DataScience #ArtificialIntelligence",
+      "article": {
+        "original_article": {
+          "title": "The Future of Machine Learning: AutoML Takes Center Stage",
+          "summary": "Automated Machine Learning (AutoML) is revolutionizing how businesses implement AI solutions. Companies are seeing 40% faster deployment times and 30% cost reductions when using AutoML platforms.",
+          "insights": [
+            "40% faster AI deployment times",
+            "30% cost reduction with AutoML",
+            "Revolutionizing business AI implementation",
+            "AutoML platforms gaining popularity"
+          ],
+          "link": "https://example.com/automl-future",
+          "source": "deeplearning_ai",
+          "date": "2024-01-14"
+        },
+        "title": "The future of machine learning: automl takes center stage",
+        "summary": "Automated machine learning (automl) is revolutionizing how businesses implement ai solutions. Companies are seeing 40 faster deployment times and 30 cost reductions when using automl platforms.",
+        "key_insights": [
+          "40 faster ai deployment times",
+          "30 cost reduction with automl",
+          "Revolutionizing business ai implementation"
+        ],
+        "hashtags": [
+          "#AI",
+          "#MachineLearning",
+          "#DeepLearning",
+          "#DataScience",
+          "#ArtificialIntelligence"
+        ],
+        "link": "https://example.com/automl-future",
+        "source": "deeplearning_ai",
+        "processed_at": "2025-08-19T11:59:59.919613",
+        "content_score": 1.0
+      },
+      "template_used": "📊 {title}\n\n{summary}\n\n🚀 Why this matters:\n{insights}\n\n📖 Full article: {link}\n\n{hashtags}",
+      "generated_at": "2025-08-19T11:59:59.920087",
+      "post_length": 508,
+      "hashtag_count": 5,
+      "engagement_score": 0.8
+    },
+    "scheduled_time": "2025-08-19T12:00:00",
+    "status": "scheduled",
+    "created_at": "2025-08-19T11:59:59.920340",
+    "post_id": "post_20250819_115959_1"
+  },
+  {
+    "post": {
+      "content": "📊 Data science trends that will dominate 2024\n\nFrom edge computing to federated learning, 2024 is set to be a transformative year for data science. Organizations are increasingly adopting these technologies to improve efficiency and maintain data privacy.\n\n🚀 Why this matters:\n• Edge computing gaining traction\n• Federated learning for privacy\n• Transformative year for data science\n\n📖 Full article: https://example.com/data-science-trends-2024\n\n#AI #MachineLearning #DeepLearning #DataScience #ArtificialIntelligence",
+      "article": {
+        "original_article": {
+          "title": "Data Science Trends That Will Dominate 2024",
+          "summary": "From edge computing to federated learning, 2024 is set to be a transformative year for data science. Organizations are increasingly adopting these technologies to improve efficiency and maintain data privacy.",
+          "insights": [
+            "Edge computing gaining traction",
+            "Federated learning for privacy",
+            "Transformative year for data science",
+            "Focus on efficiency and privacy"
+          ],
+          "link": "https://example.com/data-science-trends-2024",
+          "source": "deeplearning_ai",
+          "date": "2024-01-13"
+        },
+        "title": "Data science trends that will dominate 2024",
+        "summary": "From edge computing to federated learning, 2024 is set to be a transformative year for data science. Organizations are increasingly adopting these technologies to improve efficiency and maintain data privacy.",
+        "key_insights": [
+          "Edge computing gaining traction",
+          "Federated learning for privacy",
+          "Transformative year for data science"
+        ],
+        "hashtags": [
+          "#AI",
+          "#MachineLearning",
+          "#DeepLearning",
+          "#DataScience",
+          "#ArtificialIntelligence"
+        ],
+        "link": "https://example.com/data-science-trends-2024",
+        "source": "deeplearning_ai",
+        "processed_at": "2025-08-19T11:59:59.919790",
+        "content_score": 1.0
+      },
+      "template_used": "📊 {title}\n\n{summary}\n\n🚀 Why this matters:\n{insights}\n\n📖 Full article: {link}\n\n{hashtags}",
+      "generated_at": "2025-08-19T11:59:59.920118",
+      "post_length": 517,
+      "hashtag_count": 5,
+      "engagement_score": 0.8
+    },
+    "scheduled_time": "2025-08-19T12:00:00",
+    "status": "scheduled",
+    "created_at": "2025-08-19T11:59:59.920340",
+    "post_id": "post_20250819_115959_2"
+  },
+  {
+    "post": {
+      "content": "📊 Gpt-5s rough takeoff, ai video blockbusters, indias homegrown llms, synthetic data generation\n\n🚀 Why this matters:\n• No specific insights available\n\n📖 Full article: https://www.deeplearning.ai/the-batch/tag/aug-13-2025/\n\n#AI #MachineLearning #DeepLearning #DataScience #ArtificialIntelligence",
+      "article": {
+        "original_article": {
+          "title": "GPT-5’s Rough Takeoff, AI Video Blockbusters, India’s Homegrown LLMs, Synthetic Data Generation",
+          "summary": "",
+          "link": "https://www.deeplearning.ai/the-batch/tag/aug-13-2025/",
+          "date": "",
+          "insights": [],
+          "source": "deeplearning_ai",
+          "scraped_at": "2025-08-19T12:37:16.503097"
+        },
+        "title": "Gpt-5s rough takeoff, ai video blockbusters, indias homegrown llms, synthetic data generation",
+        "summary": "",
+        "key_insights": [],
+        "hashtags": [
+          "#AI",
+          "#MachineLearning",
+          "#DeepLearning",
+          "#DataScience",
+          "#ArtificialIntelligence"
+        ],
+        "link": "https://www.deeplearning.ai/the-batch/tag/aug-13-2025/",
+        "source": "deeplearning_ai",
+        "processed_at": "2025-08-19T12:37:16.813611",
+        "content_score": 0.30000000000000004
+      },
+      "template_used": "📊 {title}\n\n{summary}\n\n🚀 Why this matters:\n{insights}\n\n📖 Full article: {link}\n\n{hashtags}",
+      "generated_at": "2025-08-19T12:37:16.844973",
+      "post_length": 294,
+      "hashtag_count": 5,
+      "engagement_score": 0.46
+    },
+    "scheduled_time": "2025-08-19T17:00:00",
+    "status": "scheduled",
+    "created_at": "2025-08-19T12:37:16.845684",
+    "post_id": "post_20250819_123716_0"
+  },
+  {
+    "post": {
+      "content": "🎯 Reinforcement learning heats up, white house orders muscular ai policy, computer use gains momentum, fine control of fine-tuning\n\n💡 Key insights:\n• No specific insights available\n\n🔗 Read more: https://www.deeplearning.ai/the-batch/issue-286/\n\n#AI #MachineLearning #DeepLearning #DataScience #ArtificialIntelligence",
+      "article": {
+        "original_article": {
+          "title": "Reinforcement Learning Heats Up, White House Orders Muscular AI Policy, Computer Use Gains Momentum, Fine Control of Fine-Tuning",
+          "summary": "",
+          "link": "https://www.deeplearning.ai/the-batch/issue-286/",
+          "date": "",
+          "insights": [],
+          "source": "deeplearning_ai",
+          "scraped_at": "2025-08-19T12:37:16.503959"
+        },
+        "title": "Reinforcement learning heats up, white house orders muscular ai policy, computer use gains momentum, fine control of fine-tuning",
+        "summary": "",
+        "key_insights": [],
+        "hashtags": [
+          "#AI",
+          "#MachineLearning",
+          "#DeepLearning",
+          "#DataScience",
+          "#ArtificialIntelligence"
+        ],
+        "link": "https://www.deeplearning.ai/the-batch/issue-286/",
+        "source": "deeplearning_ai",
+        "processed_at": "2025-08-19T12:37:16.844309",
+        "content_score": 0.2
+      },
+      "template_used": "🎯 {title}\n\n{summary}\n\n💡 Key insights:\n{insights}\n\n🔗 Read more: {link}\n\n{hashtags}",
+      "generated_at": "2025-08-19T12:37:16.845081",
+      "post_length": 316,
+      "hashtag_count": 5,
+      "engagement_score": 0.44000000000000006
+    },
+    "scheduled_time": "2025-08-19T17:00:00",
+    "status": "scheduled",
+    "created_at": "2025-08-19T12:37:16.845684",
+    "post_id": "post_20250819_123716_1"
   }
 ]

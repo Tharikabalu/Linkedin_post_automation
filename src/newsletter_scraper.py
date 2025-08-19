@@ -83,6 +83,37 @@ class NewsletterScraper:
         if not elements:
             # Fallback: look for any content that might be articles
             elements = soup.find_all(['div', 'section'], class_=re.compile(r'post|article|entry'))
+
+        # If still nothing, fallback to link-based discovery for The Batch
+        if not elements:
+            try:
+                link_elems = soup.select('a[href*="/the-batch/"]')
+                seen_links = set()
+                articles = []
+                for a in link_elems:
+                    href = a.get('href') or ""
+                    text = a.get_text(strip=True) or ""
+                    if not href or not text:
+                        continue
+                    # Deduplicate and only keep article-like links
+                    if href in seen_links:
+                        continue
+                    seen_links.add(href)
+                    articles.append({
+                        'title': text,
+                        'summary': '',
+                        'link': urljoin(self.newsletter_sources['deeplearning_ai']['batch_newsletter']['url'], href),
+                        'date': '',
+                        'insights': [],
+                        'source': 'deeplearning_ai',
+                        'scraped_at': datetime.now().isoformat()
+                    })
+                    if len(articles) >= max_articles:
+                        break
+                if articles:
+                    return articles
+            except Exception as e:
+                self.logger.warning(f"Fallback link parsing failed: {e}")
         
         for element in elements[:max_articles]:
             try:
@@ -129,33 +160,52 @@ class NewsletterScraper:
         return articles
     
     def _extract_article_data(self, element) -> Optional[Dict[str, Any]]:
-        """Extract article data from HTML element."""
+        """Extract article data from HTML element.
+
+        More permissive parsing to handle different layouts on the site.
+        """
         try:
-            # Extract title
+            # Prefer anchor inside article as title/link
+            link_elem = None
+            for a in element.find_all('a', href=True):
+                href = a.get('href') or ""
+                if '/the-batch/' in href:
+                    link_elem = a
+                    break
+            if link_elem is None:
+                link_elem = element.find('a', href=True)
+
+            # Title: from header tags or link text
             title_elem = element.find(['h1', 'h2', 'h3', 'h4'])
             title = title_elem.get_text(strip=True) if title_elem else ""
-            
-            # Extract summary/description
+            if not title and link_elem is not None:
+                title = link_elem.get_text(strip=True)
+
+            # Summary: prefer explicit summary/description, else first paragraph
             summary_elem = element.find(['p', 'div'], class_=re.compile(r'summary|description|excerpt'))
             if not summary_elem:
                 summary_elem = element.find('p')
             summary = summary_elem.get_text(strip=True) if summary_elem else ""
-            
-            # Extract link
-            link_elem = element.find('a', href=True)
-            link = urljoin(self.newsletter_sources['deeplearning_ai']['batch_newsletter']['url'], 
-                          link_elem['href']) if link_elem else ""
-            
-            # Extract date
+
+            # Link: join relative link to base
+            link = ""
+            if link_elem is not None:
+                link = urljoin(
+                    self.newsletter_sources['deeplearning_ai']['batch_newsletter']['url'],
+                    link_elem.get('href')
+                )
+
+            # Date: best-effort
             date_elem = element.find(['time', 'span'], class_=re.compile(r'date|time'))
             date_str = date_elem.get_text(strip=True) if date_elem else ""
-            
-            # Extract key insights
+
+            # Insights
             insights = self._extract_insights(element)
-            
-            if not title or not summary:
+
+            # Require at least a title and link
+            if not title or not link:
                 return None
-            
+
             return {
                 'title': title,
                 'summary': summary,
@@ -165,7 +215,7 @@ class NewsletterScraper:
                 'source': 'deeplearning_ai',
                 'scraped_at': datetime.now().isoformat()
             }
-            
+
         except Exception as e:
             self.logger.warning(f"Error extracting article data: {e}")
             return None

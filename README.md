@@ -10,6 +10,7 @@ A comprehensive system for automating LinkedIn posts from DeepLearning.AI newsle
 - **Smart Scheduling**: Schedule posts at optimal times with configurable intervals
 - **Quality Filtering**: Filter content based on relevance and quality scores
 - **Analytics**: Track posting performance and engagement metrics
+- **Web UI**: A user-friendly web interface to manage the automation pipeline.
 - **Modular Design**: Easy to extend and customize for different content sources
 
 ## Installation
@@ -95,30 +96,24 @@ python -m src.main --status
 python -m src.main --start-scheduler
 ```
 
-### Python API
+### Web UI
 
-```python
-from src.newsletter_scraper import NewsletterScraper
-from src.content_processor import ContentProcessor
-from src.post_generator import PostGenerator
-from src.scheduler import PostScheduler
+The project includes a web-based UI for easier management.
 
-# Fetch content
-scraper = NewsletterScraper()
-articles = scraper.fetch_all_newsletters(max_articles=10)
-
-# Process content
-processor = ContentProcessor()
-processed_articles = processor.process_articles(articles)
-
-# Generate posts
-generator = PostGenerator()
-posts = generator.generate_posts(processed_articles, max_posts=5)
-
-# Schedule posts
-scheduler = PostScheduler()
-scheduled_posts = scheduler.schedule_posts(posts)
+**Start the UI:**
+```bash
+python start_ui.py
 ```
+Or directly:
+```bash
+streamlit run web_ui.py
+```
+
+The UI provides:
+- A dashboard with key metrics.
+- A visual content pipeline.
+- Post management features.
+- Analytics and visualizations.
 
 ## Project Structure
 
@@ -132,16 +127,20 @@ Linkedin_post_automation/
 │   ├── post_generator.py      # LinkedIn post generation
 │   ├── scheduler.py           # Post scheduling and automation
 │   └── main.py               # Main CLI interface
+├── scripts/                # Utility and test scripts
+│   ├── get_linkedin_token.py
+│   ├── test_linkedin_api.py
+│   └── test_system.py
 ├── config/                # Configuration files
 │   └── settings.yaml      # Main configuration
 ├── data/                  # Data storage
-│   ├── articles_*.json    # Raw newsletter articles
-│   ├── processed_*.json   # Processed articles
-│   └── generated_*.json   # Generated posts
 ├── logs/                  # Log files
+├── .gitignore             # Git ignore file
 ├── requirements.txt       # Python dependencies
 ├── env.example           # Environment variables template
-└── README.md             # This file
+├── README.md             # This file
+├── start_ui.py            # Web UI launcher
+└── web_ui.py              # Web UI application
 ```
 
 ## Components
