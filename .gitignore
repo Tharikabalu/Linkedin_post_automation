@@ -1,0 +1,29 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+
+# Virtual Environment
+linkedinagent/
+venv/
+env/
+
+# Environment Variables
+.env
+
+# Logs
+*.log
+logs/*.log
+
+# OS Files
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+
+# Data files (optional)
+data/*.json
